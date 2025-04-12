@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "simplethings",
+	"version": "${version}",
+	"name": "simplethings",
+	"description": "Adding simple, quality of life improvements to Minecraft!",
+	"authors": [
+		"Mohamed Nour Sabir!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/MedNourS/SimpleThings"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simplethings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "io.github.mednours.SimpleThings"
+		],
+		"fabric-datagen": [
+			"io.github.mednours.SimpleThingsDataGenerator"
+		],
+		"client": [
+			"io.github.mednours.SimpleThingsClient"
+		]
+	},
+	"mixins": [
+		"simplethings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
