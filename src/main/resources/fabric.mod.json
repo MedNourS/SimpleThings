@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "io.github.mednours.SimpleThings"
+			"io.github.mednours.simplethings.SimpleThings"
 		],
 		"fabric-datagen": [
-			"io.github.mednours.SimpleThingsDataGenerator"
+			"io.github.mednours.simplethings.SimpleThingsDataGenerator"
 		],
 		"client": [
-			"io.github.mednours.SimpleThingsClient"
+			"io.github.mednours.simplethings.SimpleThingsClient"
 		]
 	},
 	"mixins": [

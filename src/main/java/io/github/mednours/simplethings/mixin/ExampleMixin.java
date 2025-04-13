@@ -1,4 +1,4 @@
-package io.github.mednours.mixin;
+package io.github.mednours.simplethings.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

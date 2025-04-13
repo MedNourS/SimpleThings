@@ -1,4 +1,4 @@
-package io.github.mednours;
+package io.github.mednours.simplethings;
 
 import net.fabricmc.api.ClientModInitializer;
 
